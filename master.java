@@ -12,10 +12,10 @@ public class master {
         System.out.println("Podaj ocenę z chemii:");
         double chemia = scanner.nextDouble();
 
-        System.out.println("Podaj ocenę z informatyki:");
-        double informatyka = scanner.nextDouble();
+        System.out.println("Podaj ocenę z Angielskiego:");
+        double angol = scanner.nextDouble();
 
-        double srednia = (matematyka + fizyka + chemia + informatyka) / 4.0;
+        double srednia = (matematyka + fizyka + chemia + angol) / 4.0;
         System.out.println("Średnia ocen z przedmiotów: " + srednia);
     }
 }
